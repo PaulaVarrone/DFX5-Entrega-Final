@@ -1,0 +1,61 @@
+.home {
+    padding: 15rem;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    background-image: url("../Img/home.jpg");
+    background-repeat: no-repeat;
+    background-color: rgba(210, 161, 255, 0.651);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.about-us {
+    padding: 5rem;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    background-image: url("../Img/about\ us.jpg");
+    background-repeat: no-repeat;
+    background-color: rgba(210, 161, 255, 0.651);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tarjetas {
+    border: 3px solid purple;
+    margin: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.tarjeta {
+    flex: 1;
+}
+
+.img {
+    width: 100%;
+}
+
+.personas {
+    text-align: center;
+}
+
+.imagenes-personas {
+    transition: 1s;
+}
+
+.imagenes-personas:hover {
+    transform: scale(1.1);
+}

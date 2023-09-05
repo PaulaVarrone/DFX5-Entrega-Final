@@ -1,0 +1,74 @@
+@media screen and (max-width: 1000px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .título {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 2rem;
+        padding-top: 3rem;
+    }
+
+    .tarjetas {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 2rem;
+        padding-top: 3rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .home {
+        padding-inline: 2rem;
+        padding-top: 3rem;
+        font-size: 2.5rem;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .título {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 2rem;
+    }
+
+    .nav-color-white {
+        color: white;
+        font-weight: small;
+        font-family: "Raleway", sans-serif;
+        font: 1rem;
+        text-decoration: none;
+    }
+    
+    .navbar-nav {
+        list-style-type: none;
+        padding: .5rem;
+        height: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: .5rem;
+    }
+}
+
