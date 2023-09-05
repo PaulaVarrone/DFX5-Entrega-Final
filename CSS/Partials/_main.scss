@@ -9,7 +9,7 @@
     text-decoration: none;
     background-image: url("../Img/home.jpg");
     background-repeat: no-repeat;
-    background-color: rgba(210, 161, 255, 0.651);
+    background-color: $mainColor;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -27,7 +27,7 @@
     text-decoration: none;
     background-image: url("../Img/about\ us.jpg");
     background-repeat: no-repeat;
-    background-color: rgba(210, 161, 255, 0.651);
+    background-color: $mainColor;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -38,18 +38,18 @@
     margin: 2rem;
     display: flex;
     gap: 1rem;
-}
 
-.tarjeta {
-    flex: 1;
-}
+    .tarjeta {
+        flex: 1;
 
-.img {
-    width: 100%;
-}
+        .img {
+            width: 100%;
+        }
+    }
 
-.personas {
-    text-align: center;
+    .personas {
+        text-align: center;
+    }
 }
 
 .imagenes-personas {

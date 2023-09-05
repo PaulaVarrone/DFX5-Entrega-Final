@@ -1,6 +1,6 @@
 .grid {
     box-sizing: border-box;
-    background-color: rgba(222, 180, 225, 0.326);
+    background-color: $bodyColor;
     min-height: 100vh;
 
     display: grid;
@@ -10,23 +10,23 @@
     grid-template-areas:
         "título título clients1 cloud"
         "título título security AI";
-}
 
 
-.título {
-    padding: 15rem;
-    color: hsl(0, 0%, 100%);
-    font-family: 'Raleway', sans-serif;
-    font-size: 2rem;
-    font-weight: normal;
-    font-style: italic;
-    text-align: center;
-    text-decoration: none;
-    background-image: url("../Img/ss.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    grid-area: título;
+    .título {
+        padding: 15rem;
+        color: hsl(0, 0%, 100%);
+        font-family: 'Raleway', sans-serif;
+        font-size: 2rem;
+        font-weight: normal;
+        font-style: italic;
+        text-align: center;
+        text-decoration: none;
+        background-image: url("../Img/ss.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        grid-area: título;
+    }
 }
 
 .clients1 {

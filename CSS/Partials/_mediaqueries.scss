@@ -29,19 +29,15 @@
         padding-top: 3rem;
     }
 
-    
+
     .map-container {
         width: 100%;
-        /* Ancho del contenedor del mapa al 100% */
         padding: 10px;
-        /* Agregar espaciado si es necesario */
     }
 
     .mapa {
         width: 100%;
-        /* Ancho del mapa al 100% */
         height: auto;
-        /* Altura automática para mantener la proporción */
     }
 }
 
@@ -52,24 +48,11 @@
         font-size: 2.5rem;
     }
 
-    .grid {
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .título {
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        padding: 2rem;
-    }
-
     .nav-color-white {
         color: white;
         font-weight: small;
         font-family: "Raleway", sans-serif;
-        font: 1rem;
+        font: .5rem;
         text-decoration: none;
     }
 
@@ -85,5 +68,4 @@
         align-content: center;
         gap: .5rem;
     }
-
 }
