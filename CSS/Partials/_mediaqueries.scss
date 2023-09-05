@@ -13,7 +13,7 @@
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:650px) {
 
     .about-us {
         display: flex;
@@ -27,6 +27,21 @@
         flex-direction: column;
         padding-inline: 2rem;
         padding-top: 3rem;
+    }
+
+    
+    .map-container {
+        width: 100%;
+        /* Ancho del contenedor del mapa al 100% */
+        padding: 10px;
+        /* Agregar espaciado si es necesario */
+    }
+
+    .mapa {
+        width: 100%;
+        /* Ancho del mapa al 100% */
+        height: auto;
+        /* Altura automática para mantener la proporción */
     }
 }
 
@@ -57,7 +72,7 @@
         font: 1rem;
         text-decoration: none;
     }
-    
+
     .navbar-nav {
         list-style-type: none;
         padding: .5rem;
@@ -70,5 +85,5 @@
         align-content: center;
         gap: .5rem;
     }
-}
 
+}
