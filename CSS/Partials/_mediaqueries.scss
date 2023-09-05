@@ -68,4 +68,17 @@
         align-content: center;
         gap: .5rem;
     }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .título {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 2rem;
+    }
 }
